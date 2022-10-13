@@ -1,0 +1,10 @@
+basic.forever(function () {
+    pins.servoWritePin(AnalogPin.P0, 180)
+    pins.servoWritePin(AnalogPin.P1, 90)
+    pins.servoWritePin(AnalogPin.P2, 150)
+    basic.pause(2000)
+    pins.servoWritePin(AnalogPin.P0, 150)
+    pins.servoWritePin(AnalogPin.P1, 20)
+    pins.servoWritePin(AnalogPin.P2, 80)
+    basic.pause(2000)
+})
